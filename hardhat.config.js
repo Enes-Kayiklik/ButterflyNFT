@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-const PRIVATE_KEY = "5a8435255d2f11176960fa34770c8b3110f2b294b45b488c2093ef21423ac5ac"
+const PRIVATE_KEY = "YOUR_PRIVATE_KEY"
 
 task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
   const accounts = await hre.ethers.getSigners();
